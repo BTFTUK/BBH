@@ -25,6 +25,7 @@ git remote set-url [名字（和上面一样）] --push --add [地址2]
 #推送
 git push -u [名字] [分支] 
 
+
 ```
 
 
