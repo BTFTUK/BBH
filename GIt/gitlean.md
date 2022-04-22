@@ -11,8 +11,10 @@
 ``` git add . ```
 ##### 用于查看项目的当前状态
 ``` git status ```
-
-### 三级
+##### 查看远端
+``` git remote -v ```
+### 设置远端
+``` git remote add origin [url] ```
 - 1
 - 2
 - 3
