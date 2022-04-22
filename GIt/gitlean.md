@@ -14,7 +14,21 @@
 ##### 查看远端
 ``` git remote -v ```
 ### 设置远端
-``` git remote add origin [url] ```
+` git remote add origin [url] `
+##### 设置多个远端分支
+``` 
+git remote add [名字] [地址1]
+
+git remote set-url [名字（和上面一样）] --push --add [地址1]
+git remote set-url [名字（和上面一样）] --push --add [地址2]
+
+#推送
+git push -u [名字] [分支] 
+
+```
+
+
+
 - 1
 - 2
 - 3
